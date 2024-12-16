@@ -1,6 +1,6 @@
 export default function ProjectPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-50 to-blue-100 p-6">
+    <div className="min-h-screen bg-gradient-to-b from-yellow-500 to-orange-500  p-6">
       {/* Header Section */}
       <header className="text-center py-8">
         <h1 className="text-4xl md:text-6xl font-extrabold text-blue-800 mb-4">

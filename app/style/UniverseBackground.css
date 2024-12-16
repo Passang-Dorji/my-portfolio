@@ -1,0 +1,21 @@
+/* Keyframe for twinkling stars */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Stars Layer */
+.stars {
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(white, transparent 10%) 1px 1px,
+    black;
+  background-size: 3px 3px; /* Adjust density of stars */
+  animation: twinkle 2s infinite ease-in-out;
+}

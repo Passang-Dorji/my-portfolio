@@ -4,10 +4,13 @@ import {
   ArrowUpCircleIcon,
 } from "@heroicons/react/24/outline";
 import { useState, useEffect } from "react";
-import About from "./component/About";
+import InfiniteCanvas from "./components/InfiniteCanva";
+import About from "./components/About";
 import Profile from "./pages/profile/page";
 import ProjectPage from "./pages/project/page";
+import UniverseBackground from "./pages/animation/page";
 import ContactPage from "./pages/contact/page";
+import Hexagon from "./components/hex";
 export default function Page() {
   const [isAtBottom, setIsAtBottom] = useState(false);
 
@@ -45,6 +48,8 @@ export default function Page() {
             <ArrowDownCircleIcon className="animate-bounce w-12 h-12" />
           )}
         </button>
+        <InfiniteCanvas />
+        <UniverseBackground />
       </div>
     </>
   );
