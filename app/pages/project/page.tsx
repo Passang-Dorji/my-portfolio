@@ -1,6 +1,6 @@
 export default function ProjectPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-yellow-500 to-orange-500  p-6">
+    <div className="min-h-screen bg-gradient-to-br from-purple-500 via-indigo-400 to-pink-300 opacity-75 p-6">
       {/* Header Section */}
       <header className="text-center py-8">
         <h1 className="text-4xl md:text-6xl font-extrabold text-blue-800 mb-4">
@@ -18,7 +18,7 @@ export default function ProjectPage() {
             key={index}
             className="bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
           >
-            <div className="h-48 bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center">
+            <div className="h-48  bg-gradient-to-br from-pink-500 via-purple-400 to-indigo-500 opacity-75 flex items-center justify-center">
               <span className="text-3xl font-bold text-white">
                 Project {index + 1}
               </span>
@@ -31,7 +31,7 @@ export default function ProjectPage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque vehicula.
               </p>
-              <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+              <button className="bg-gradient-to-br from-pink-500 via-purple-400 to-indigo-300 opacity-75 text-black px-4 py-2 rounded hover:bg-blue-700 transition">
                 Learn More
               </button>
             </div>

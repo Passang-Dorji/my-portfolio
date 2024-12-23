@@ -8,7 +8,6 @@ const Hexagon = ({ size, index }) => {
     clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
     margin: "0px",
     border: "5px solid yellow",
-    // boxSizing: "border-box",
     animation: "bounce 2s infinite",
     animationDelay: `${index * 0.1}s`,
   };
@@ -23,19 +22,14 @@ const HexagonGrid = () => {
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 9; j++) {
       hexagons.push(
-        <Hexagon
-          key={`${i}-${j}`}
-          size={hexSize}
-          // color={i < 10 - i ? "yellow" : "red"}
-          index={i * 10 + j}
-        />,
+        <Hexagon key={`${i}-${j}`} size={hexSize} index={i * 10 + j} />,
       );
     }
   }
 
   return (
     <div
-      className="bg-gradient-to-br from-yellow-500 to-red-500 animate-pulse"
+      className="bg-gradient-to-br from-purple-500 via-indigo-400 to-pink-300 opacity-75"
       style={{
         position: "absolute",
         top: 0,

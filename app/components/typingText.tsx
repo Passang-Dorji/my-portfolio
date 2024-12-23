@@ -25,7 +25,7 @@ const TypingText = ({ text }) => {
   });
 
   return (
-    <div className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+    <div className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
       {isTypingComplete ? (
         <span>
           {text.split("").map((char, index) => (
