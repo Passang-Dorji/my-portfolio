@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../globals.css"; // Adjust path if needed
 import HexagonGrid from "@/app/components/hex";
 const geistSans = Geist({
   variable: "--font-geist-sans",
