@@ -1,7 +1,6 @@
 export default function ProjectPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-500 via-indigo-400 to-pink-300 opacity-75 p-6">
-      {/* Header Section */}
       <header className="text-center py-8">
         <h1 className="text-4xl md:text-6xl font-extrabold text-blue-800 mb-4">
           My Amazing Projects
@@ -11,7 +10,6 @@ export default function ProjectPage() {
         </p>
       </header>
 
-      {/* Project Grid */}
       <section className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {Array.from({ length: 6 }).map((_, index) => (
           <div
@@ -39,7 +37,6 @@ export default function ProjectPage() {
         ))}
       </section>
 
-      {/* Call to Action */}
       <footer className="mt-16 text-center">
         <h2 className="text-3xl font-bold text-blue-800 mb-4">
           Want to Collaborate?

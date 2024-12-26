@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-
-const TypingText = ({ text }) => {
+interface Props {
+  text: string;
+}
+const TypingText = ({ text }: Props) => {
   const [isTypingComplete, setIsTypingComplete] = useState(false);
 
   useEffect(() => {
@@ -17,7 +19,7 @@ const TypingText = ({ text }) => {
     animation: `typing ${text.length * 0.2}s steps(${text.length}, end), blink 0.5s step-end infinite`,
   };
 
-  const letterStyle = (index) => ({
+  const letterStyle = (index: number) => ({
     display: "inline-block",
     animation: isTypingComplete
       ? `slow-letter-bounce 3s ease-in-out ${index * 0.3}s infinite`
