@@ -1,7 +1,6 @@
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-500 via-indigo-400 to-pink-300 opacity-75 p-6">
-      {/* Header Section */}
       <header className="text-center py-8">
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-800 mb-4">
           Get in Touch
@@ -11,7 +10,6 @@ export default function ContactPage() {
         </p>
       </header>
 
-      {/* Contact Form Section */}
       <section className="max-w-3xl mx-auto bg-gradient-to-br from-purple-700 via-indigo-600 to-pink-500 opacity-75 shadow-md rounded-lg p-6">
         <form className="space-y-6">
           <div>
@@ -51,7 +49,6 @@ export default function ContactPage() {
             </label>
             <textarea
               id="message"
-              rows="5"
               className="w-full px-4 py-2 border border-orange-500 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
               placeholder="Your Message"
             ></textarea>
@@ -65,7 +62,6 @@ export default function ContactPage() {
         </form>
       </section>
 
-      {/* Call to Action */}
       <footer className="mt-16 text-center">
         <h2 className="text-3xl font-bold text-green-800 mb-4">
           Connect with Us
