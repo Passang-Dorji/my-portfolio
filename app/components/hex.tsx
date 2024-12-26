@@ -1,6 +1,6 @@
 import React from "react";
 interface Props {
-  size: any;
+  size: number;
   index: number;
 }
 
