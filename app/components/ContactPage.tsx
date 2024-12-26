@@ -6,7 +6,7 @@ export default function ContactPage() {
           Get in Touch
         </h1>
         <p className="text-lg md:text-xl text-gray-600">
-          We'd love to hear from you!
+          We&apos;d love to hear from you!
         </p>
       </header>
 

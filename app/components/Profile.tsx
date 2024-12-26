@@ -9,8 +9,9 @@ export default function Profile() {
             <div className="h-14 bg-gradient-to-r from-purple-700 via-indigo-500 to-pink-400  rounded-xl w-4/5 mx-auto md:mx-0 shadow-md">
               <p className="text-black text-wrap">
                 Welcome to a space where your grace, strength, and radiance are
-                celebrated. Here’s to the power, beauty, and brilliance each of
-                you brings to the world. May today be as incredible as you are!"
+                celebrated. Here&apos;s to the power, beauty, and brilliance
+                each of you brings to the world. May today be as incredible as
+                you are.
               </p>
             </div>
 

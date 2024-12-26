@@ -45,7 +45,8 @@ export default function ProjectPage() {
           Want to Collaborate?
         </h2>
         <p className="text-blue-600 mb-6">
-          Feel free to reach out and let's create something amazing together!
+          Feel free to reach out and let&apos;s create something amazing
+          together!
         </p>
         <button className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg hover:from-blue-700 hover:to-blue-900 transition">
           Contact Me
