@@ -1,6 +1,10 @@
 import React from "react";
+interface Props {
+  size: any;
+  index: number;
+}
 
-const Hexagon = ({ size, index }) => {
+const Hexagon = ({ size, index }: Props) => {
   const hexagonStyle = {
     width: `${size}px`,
     height: `${size}px`,
